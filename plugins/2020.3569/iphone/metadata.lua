@@ -4,7 +4,7 @@ local metadata =
 	{
 		format = 'staticLibrary',
 		staticLibs = { 'APDMintegralAdapter', },
-		frameworks = { 'MTGSDK', 'MTGSDKInterstitial', 'MTGSDKInterstitialVideo', 'MTGSDKReward', },
+		frameworks = { 'MTGSDK', 'MTGSDKBanner', 'MTGSDKBidding', 'MTGSDKInterActive', 'MTGSDKInterstitial', 'MTGSDKInterstitialVideo', 'MTGSDKReward', },
 		frameworksOptional = {},
 	},
 }
