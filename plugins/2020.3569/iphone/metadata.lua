@@ -3,8 +3,9 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = { 'APDMintegralAdapter', },
-		frameworks = { 'MTGSDK', 'MTGSDKBanner', 'MTGSDKBidding', 'MTGSDKInterstitial', 'MTGSDKInterstitialVideo', 'MTGSDKNativeAdvanced', 'MTGSDKNewInterstitial', 'MTGSDKReward', 'MTGSDKSplash' },
+		staticLibs = { 'APDMintegralAdapter',
+			'MTGSDK', 'MTGSDKBanner', 'MTGSDKBidding', 'MTGSDKInterstitial', 'MTGSDKInterstitialVideo', 'MTGSDKNativeAdvanced', 'MTGSDKNewInterstitial', 'MTGSDKReward', 'MTGSDKSplash'},
+		frameworks = {  },
 		frameworksOptional = {},
 	},
 }
